@@ -1,0 +1,109 @@
+{
+  "analysis_id": "IMG_20260723_164713_5012",
+  "source_filename": "Debabrata Pruseth.png",
+  "source_extension": ".png",
+  "settings": {
+    "ela_jpeg_quality": 90,
+    "ela_amplification": 15,
+    "noise_kernel_size": 5,
+    "local_noise_tile_size": 64,
+    "jpeg_block_size": 8
+  },
+  "full_image": {
+    "ela_metrics": {
+      "mean_difference": 1.230876,
+      "standard_deviation": 1.064553,
+      "maximum_difference": 18.0,
+      "p95_difference": 3.333333,
+      "high_difference_pixel_percentage": 0.027036
+    },
+    "ela_signal": "Lower Recompression Variation",
+    "noise_metrics": {
+      "mean_absolute_residual": 1.520132,
+      "residual_standard_deviation": 3.392922,
+      "p95_absolute_residual": 5.109375,
+      "maximum_absolute_residual": 93.785156
+    },
+    "local_noise_summary": {
+      "tile_count": 270,
+      "mean_tile_noise": 1.493903,
+      "tile_noise_standard_deviation": 1.403669,
+      "noise_coefficient_of_variation": 0.939599,
+      "median_tile_noise": 0.952318,
+      "median_absolute_deviation": 0.472824,
+      "minimum_tile_noise": 0.433955,
+      "maximum_tile_noise": 9.906433
+    },
+    "noise_signal": "Elevated Local Noise Variation",
+    "jpeg_block_metrics": {
+      "horizontal_boundary_mean": 2.392942,
+      "vertical_boundary_mean": 2.144676,
+      "overall_horizontal_difference": 2.323542,
+      "overall_vertical_difference": 2.194385,
+      "horizontal_block_ratio": 1.029868,
+      "vertical_block_ratio": 0.977347,
+      "combined_block_ratio": 1.003608
+    },
+    "jpeg_block_signal": "Lower Block-Boundary Signal",
+    "score_details": {
+      "ela_component": 22.22,
+      "noise_component": 93.96,
+      "jpeg_block_component": 0.72,
+      "compression_noise_score": 46.62
+    },
+    "interpretation": {
+      "status": "Moderate Forensic Variation",
+      "score": 46.62,
+      "observations": [
+        "ELA assessment: Lower Recompression Variation.",
+        "Local-noise assessment: Elevated Local Noise Variation.",
+        "JPEG block assessment: Lower Block-Boundary Signal.",
+        "These measurements can be affected by ordinary editing, resizing, screenshots, filters, and multiple rounds of compression."
+      ],
+      "recommendation": "The image contains moderate forensic variation. The result is not conclusive and should be combined with additional evidence."
+    }
+  },
+  "face_results": [
+    {
+      "face_id": 1,
+      "crop_path": "/content/drive/MyDrive/deepfake_banking_project/processed_images/IMG_20260723_164713_5012_face_01.png",
+      "suitability_rank": 1,
+      "ela_metrics": {
+        "mean_difference": 1.79219,
+        "standard_deviation": 1.461703,
+        "maximum_difference": 16.333334,
+        "p95_difference": 4.666667,
+        "high_difference_pixel_percentage": 0.095734
+      },
+      "noise_metrics": {
+        "mean_absolute_residual": 2.75622,
+        "residual_standard_deviation": 5.147895,
+        "p95_absolute_residual": 10.363281,
+        "maximum_absolute_residual": 93.785156
+      },
+      "jpeg_block_metrics": {
+        "horizontal_boundary_mean": 4.323174,
+        "vertical_boundary_mean": 4.155692,
+        "overall_horizontal_difference": 4.353277,
+        "overall_vertical_difference": 4.182337,
+        "horizontal_block_ratio": 0.993085,
+        "vertical_block_ratio": 0.993629,
+        "combined_block_ratio": 0.993357
+      },
+      "ela_visual_path": "/content/drive/MyDrive/deepfake_banking_project/forensic_outputs/IMG_20260723_164713_5012_face_01_ela.png",
+      "noise_visual_path": "/content/drive/MyDrive/deepfake_banking_project/forensic_outputs/IMG_20260723_164713_5012_face_01_noise.png"
+    }
+  ],
+  "output_files": {
+    "ela_visual": "/content/drive/MyDrive/deepfake_banking_project/forensic_outputs/IMG_20260723_164713_5012_ela.png",
+    "noise_residual_visual": "/content/drive/MyDrive/deepfake_banking_project/forensic_outputs/IMG_20260723_164713_5012_noise_residual.png",
+    "local_noise_heatmap": "/content/drive/MyDrive/deepfake_banking_project/forensic_outputs/IMG_20260723_164713_5012_local_noise_heatmap.png"
+  },
+  "limitations": [
+    "ELA is a recompression-response technique and is not proof of manipulation.",
+    "The original compression history may be unavailable.",
+    "Screenshots, resizing, filters, social-media processing, and repeated saving can produce elevated signals in genuine images.",
+    "Natural edges and textures can produce strong noise or ELA responses.",
+    "The prototype thresholds have not been calibrated on a representative banking dataset."
+  ]
+}

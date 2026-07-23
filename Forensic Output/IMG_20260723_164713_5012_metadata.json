@@ -1,0 +1,51 @@
+{
+  "analysis_id": "IMG_20260723_164713_5012",
+  "basic_metadata": {},
+  "camera_information": {
+    "camera_make": null,
+    "camera_model": null,
+    "lens": null,
+    "software": null,
+    "datetime": null,
+    "datetime_original": null,
+    "orientation": null,
+    "color_space": null
+  },
+  "software": {
+    "software_string": "",
+    "known_editor_detected": false,
+    "detected_tools": []
+  },
+  "dimension_summary": {
+    "width": 928,
+    "height": 1120,
+    "aspect_ratio": 0.8286,
+    "megapixels": 1.039,
+    "resolution_category": "Medium Resolution"
+  },
+  "metadata_completeness": {
+    "available_fields": 0,
+    "missing_fields": [
+      "Make",
+      "Model",
+      "DateTimeOriginal",
+      "Software",
+      "Orientation"
+    ],
+    "completeness_score": 0.0
+  },
+  "metadata_risk": {
+    "metadata_score": 0,
+    "category": "Lower Metadata Risk",
+    "observations": [
+      "Limited metadata available; absence is treated as neutral.",
+      "Camera make unavailable (neutral).",
+      "Camera model unavailable (neutral)."
+    ]
+  },
+  "limitations": [
+    "Metadata can easily be removed or modified.",
+    "Absence of metadata does not imply manipulation.",
+    "Many messaging apps intentionally strip EXIF metadata."
+  ]
+}

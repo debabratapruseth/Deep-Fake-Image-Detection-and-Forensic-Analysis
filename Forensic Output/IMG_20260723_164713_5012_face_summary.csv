@@ -1,0 +1,2 @@
+Rank,Face ID,Detection Confidence,Face Width,Face Height,Image Area %,Crop Blur Score,Crop Brightness,Crop Size Acceptable,Suitability Score,Crop Path
+1,1,0.950873,311,311,9.31,353.7802,111.7052,True,80.34,/content/drive/MyDrive/deepfake_banking_project/processed_images/IMG_20260723_164713_5012_face_01.png

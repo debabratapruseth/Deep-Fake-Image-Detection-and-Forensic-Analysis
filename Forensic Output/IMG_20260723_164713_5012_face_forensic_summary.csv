@@ -1,0 +1,2 @@
+Face ID,Suitability Rank,ELA Mean Difference,ELA P95 Difference,ELA High-Difference Pixels %,Mean Absolute Noise Residual,Noise Residual Std,JPEG Block Ratio,ELA Visual,Noise Visual
+1,1,1.79219,4.666667,0.095734,2.75622,5.147895,0.993357,/content/drive/MyDrive/deepfake_banking_project/forensic_outputs/IMG_20260723_164713_5012_face_01_ela.png,/content/drive/MyDrive/deepfake_banking_project/forensic_outputs/IMG_20260723_164713_5012_face_01_noise.png

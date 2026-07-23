@@ -1,0 +1,17 @@
+{
+  "quality_score": 100.0,
+  "overall_status": "Good",
+  "blur_score": 151.6211,
+  "blur_threshold": 100.0,
+  "brightness_score": 72.0068,
+  "dark_brightness_threshold": 45.0,
+  "bright_brightness_threshold": 210.0,
+  "contrast_score": 55.2755,
+  "dark_pixel_percentage": 8.706,
+  "bright_pixel_percentage": 4.9008,
+  "resolution_status": "Acceptable",
+  "issues": [
+    "No major image-quality issues were detected."
+  ],
+  "visualisation_path": "/content/drive/MyDrive/deepfake_banking_project/forensic_outputs/IMG_20260723_164713_5012_quality_assessment.png"
+}

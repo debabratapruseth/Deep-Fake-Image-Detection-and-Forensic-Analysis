@@ -1,0 +1,2 @@
+Face ID,Suitability Rank,Suitability Score,Raw Model Label,Interpreted Result,Prediction Confidence,Real Probability,Fake Probability,Crop Path
+1,1,80.34,Deepfake,fake,0.749688,0.250312,0.749688,/content/drive/MyDrive/deepfake_banking_project/processed_images/IMG_20260723_164713_5012_face_01.png

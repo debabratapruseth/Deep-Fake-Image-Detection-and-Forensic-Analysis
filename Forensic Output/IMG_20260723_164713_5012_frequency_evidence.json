@@ -1,0 +1,1131 @@
+{
+  "analysis_id": "IMG_20260723_164713_5012",
+  "source_filename": "Debabrata Pruseth.png",
+  "settings": {
+    "fft_log_scale_factor": 20.0,
+    "low_frequency_end": 0.15,
+    "mid_frequency_end": 0.5,
+    "directional_angle_bins": 18,
+    "hanning_window_applied": true
+  },
+  "full_image": {
+    "frequency_bands": {
+      "total_energy": 2680012884934656.0,
+      "low_frequency_energy": 2671909355388928.0,
+      "medium_frequency_energy": 7109763661824.0,
+      "high_frequency_energy": 994208579584.0,
+      "low_frequency_percentage": 99.697631,
+      "medium_frequency_percentage": 0.265288,
+      "high_frequency_percentage": 0.037097,
+      "high_to_medium_ratio": 0.13983708,
+      "high_to_low_ratio": 0.0003721
+    },
+    "spectral_slope": {
+      "spectral_slope": -3.296014,
+      "spectral_intercept": 5.470061,
+      "spectral_fit_r_squared": 0.978552,
+      "fit_point_count": 618
+    },
+    "spectral_entropy": 0.240114,
+    "directional_summary": {
+      "maximum_direction_percentage": 17.925686,
+      "minimum_direction_percentage": 2.490159,
+      "directional_coefficient_of_variation": 0.825535,
+      "directional_peak_ratio": 3.228453
+    },
+    "spectral_peaks": {
+      "percentile_threshold": 99.9,
+      "peak_value_threshold": 208.666595,
+      "peak_count": 1024,
+      "valid_spectrum_pixel_count": 1022755,
+      "peak_density_percentage": 0.10012173,
+      "stored_peak_coordinates": [
+        {
+          "x_offset": -29,
+          "y_offset": -81,
+          "magnitude": 210.31488
+        },
+        {
+          "x_offset": -22,
+          "y_offset": -81,
+          "magnitude": 209.100616
+        },
+        {
+          "x_offset": -26,
+          "y_offset": -78,
+          "magnitude": 209.853729
+        },
+        {
+          "x_offset": -143,
+          "y_offset": -73,
+          "magnitude": 208.880844
+        },
+        {
+          "x_offset": -27,
+          "y_offset": -72,
+          "magnitude": 209.46817
+        },
+        {
+          "x_offset": -27,
+          "y_offset": -71,
+          "magnitude": 211.980881
+        },
+        {
+          "x_offset": -26,
+          "y_offset": -71,
+          "magnitude": 209.69519
+        },
+        {
+          "x_offset": -138,
+          "y_offset": -70,
+          "magnitude": 210.584137
+        },
+        {
+          "x_offset": -137,
+          "y_offset": -70,
+          "magnitude": 208.850494
+        },
+        {
+          "x_offset": -136,
+          "y_offset": -69,
+          "magnitude": 208.757614
+        },
+        {
+          "x_offset": -135,
+          "y_offset": -68,
+          "magnitude": 209.816422
+        },
+        {
+          "x_offset": -134,
+          "y_offset": -68,
+          "magnitude": 210.530975
+        },
+        {
+          "x_offset": -133,
+          "y_offset": -68,
+          "magnitude": 209.428726
+        },
+        {
+          "x_offset": -133,
+          "y_offset": -67,
+          "magnitude": 210.803497
+        },
+        {
+          "x_offset": -132,
+          "y_offset": -67,
+          "magnitude": 209.896149
+        },
+        {
+          "x_offset": -29,
+          "y_offset": -67,
+          "magnitude": 210.011505
+        },
+        {
+          "x_offset": -131,
+          "y_offset": -66,
+          "magnitude": 209.883102
+        },
+        {
+          "x_offset": -130,
+          "y_offset": -66,
+          "magnitude": 209.987717
+        },
+        {
+          "x_offset": -129,
+          "y_offset": -65,
+          "magnitude": 209.674255
+        },
+        {
+          "x_offset": -128,
+          "y_offset": -65,
+          "magnitude": 209.861893
+        },
+        {
+          "x_offset": -127,
+          "y_offset": -64,
+          "magnitude": 208.879852
+        },
+        {
+          "x_offset": -126,
+          "y_offset": -64,
+          "magnitude": 209.127518
+        },
+        {
+          "x_offset": -126,
+          "y_offset": -63,
+          "magnitude": 209.887329
+        },
+        {
+          "x_offset": -125,
+          "y_offset": -63,
+          "magnitude": 212.147583
+        },
+        {
+          "x_offset": -124,
+          "y_offset": -63,
+          "magnitude": 211.542892
+        },
+        {
+          "x_offset": -124,
+          "y_offset": -62,
+          "magnitude": 209.218887
+        },
+        {
+          "x_offset": -123,
+          "y_offset": -62,
+          "magnitude": 209.838089
+        },
+        {
+          "x_offset": -121,
+          "y_offset": -61,
+          "magnitude": 208.666595
+        },
+        {
+          "x_offset": -120,
+          "y_offset": -61,
+          "magnitude": 208.7314
+        },
+        {
+          "x_offset": -114,
+          "y_offset": -60,
+          "magnitude": 209.308792
+        },
+        {
+          "x_offset": -113,
+          "y_offset": -60,
+          "magnitude": 210.424332
+        },
+        {
+          "x_offset": -112,
+          "y_offset": -60,
+          "magnitude": 208.78035
+        },
+        {
+          "x_offset": -115,
+          "y_offset": -59,
+          "magnitude": 209.628326
+        },
+        {
+          "x_offset": -114,
+          "y_offset": -59,
+          "magnitude": 211.094437
+        },
+        {
+          "x_offset": -113,
+          "y_offset": -59,
+          "magnitude": 211.460266
+        },
+        {
+          "x_offset": -112,
+          "y_offset": -59,
+          "magnitude": 209.158615
+        },
+        {
+          "x_offset": -112,
+          "y_offset": -58,
+          "magnitude": 210.68866
+        },
+        {
+          "x_offset": -111,
+          "y_offset": -58,
+          "magnitude": 211.466904
+        },
+        {
+          "x_offset": -110,
+          "y_offset": -58,
+          "magnitude": 209.137482
+        },
+        {
+          "x_offset": -95,
+          "y_offset": -58,
+          "magnitude": 208.759018
+        },
+        {
+          "x_offset": -91,
+          "y_offset": -58,
+          "magnitude": 210.39772
+        },
+        {
+          "x_offset": -90,
+          "y_offset": -58,
+          "magnitude": 211.722122
+        },
+        {
+          "x_offset": -89,
+          "y_offset": -58,
+          "magnitude": 210.486725
+        },
+        {
+          "x_offset": -110,
+          "y_offset": -57,
+          "magnitude": 209.345932
+        },
+        {
+          "x_offset": -109,
+          "y_offset": -57,
+          "magnitude": 211.189041
+        },
+        {
+          "x_offset": -108,
+          "y_offset": -57,
+          "magnitude": 211.088318
+        },
+        {
+          "x_offset": -96,
+          "y_offset": -57,
+          "magnitude": 211.564865
+        },
+        {
+          "x_offset": -95,
+          "y_offset": -57,
+          "magnitude": 210.612732
+        },
+        {
+          "x_offset": -93,
+          "y_offset": -57,
+          "magnitude": 209.270615
+        },
+        {
+          "x_offset": -92,
+          "y_offset": -57,
+          "magnitude": 213.061951
+        },
+        {
+          "x_offset": -91,
+          "y_offset": -57,
+          "magnitude": 212.001343
+        },
+        {
+          "x_offset": -90,
+          "y_offset": -57,
+          "magnitude": 210.049591
+        },
+        {
+          "x_offset": -89,
+          "y_offset": -57,
+          "magnitude": 211.565567
+        },
+        {
+          "x_offset": -88,
+          "y_offset": -57,
+          "magnitude": 210.884781
+        },
+        {
+          "x_offset": -110,
+          "y_offset": -56,
+          "magnitude": 210.790115
+        },
+        {
+          "x_offset": -109,
+          "y_offset": -56,
+          "magnitude": 213.726776
+        },
+        {
+          "x_offset": -108,
+          "y_offset": -56,
+          "magnitude": 214.952759
+        },
+        {
+          "x_offset": -107,
+          "y_offset": -56,
+          "magnitude": 214.498871
+        },
+        {
+          "x_offset": -106,
+          "y_offset": -56,
+          "magnitude": 213.031082
+        },
+        {
+          "x_offset": -105,
+          "y_offset": -56,
+          "magnitude": 209.029816
+        },
+        {
+          "x_offset": -96,
+          "y_offset": -56,
+          "magnitude": 211.064819
+        },
+        {
+          "x_offset": -93,
+          "y_offset": -56,
+          "magnitude": 210.993988
+        },
+        {
+          "x_offset": -92,
+          "y_offset": -56,
+          "magnitude": 213.058395
+        },
+        {
+          "x_offset": -91,
+          "y_offset": -56,
+          "magnitude": 210.34761
+        },
+        {
+          "x_offset": -89,
+          "y_offset": -56,
+          "magnitude": 210.434723
+        },
+        {
+          "x_offset": -88,
+          "y_offset": -56,
+          "magnitude": 211.184387
+        },
+        {
+          "x_offset": -87,
+          "y_offset": -56,
+          "magnitude": 211.177292
+        },
+        {
+          "x_offset": -86,
+          "y_offset": -56,
+          "magnitude": 209.948715
+        },
+        {
+          "x_offset": -108,
+          "y_offset": -55,
+          "magnitude": 209.026154
+        },
+        {
+          "x_offset": -107,
+          "y_offset": -55,
+          "magnitude": 213.282944
+        },
+        {
+          "x_offset": -106,
+          "y_offset": -55,
+          "magnitude": 215.576996
+        },
+        {
+          "x_offset": -105,
+          "y_offset": -55,
+          "magnitude": 214.898071
+        },
+        {
+          "x_offset": -104,
+          "y_offset": -55,
+          "magnitude": 213.382339
+        },
+        {
+          "x_offset": -103,
+          "y_offset": -55,
+          "magnitude": 210.960724
+        },
+        {
+          "x_offset": -91,
+          "y_offset": -55,
+          "magnitude": 210.859848
+        },
+        {
+          "x_offset": -90,
+          "y_offset": -55,
+          "magnitude": 209.662552
+        },
+        {
+          "x_offset": -89,
+          "y_offset": -55,
+          "magnitude": 209.990936
+        },
+        {
+          "x_offset": -88,
+          "y_offset": -55,
+          "magnitude": 213.533615
+        },
+        {
+          "x_offset": -87,
+          "y_offset": -55,
+          "magnitude": 215.766525
+        },
+        {
+          "x_offset": -86,
+          "y_offset": -55,
+          "magnitude": 212.489929
+        },
+        {
+          "x_offset": -83,
+          "y_offset": -55,
+          "magnitude": 210.858841
+        },
+        {
+          "x_offset": -105,
+          "y_offset": -54,
+          "magnitude": 214.273712
+        },
+        {
+          "x_offset": -104,
+          "y_offset": -54,
+          "magnitude": 217.871155
+        },
+        {
+          "x_offset": -103,
+          "y_offset": -54,
+          "magnitude": 218.064499
+        },
+        {
+          "x_offset": -102,
+          "y_offset": -54,
+          "magnitude": 213.74588
+        },
+        {
+          "x_offset": -91,
+          "y_offset": -54,
+          "magnitude": 213.400909
+        },
+        {
+          "x_offset": -90,
+          "y_offset": -54,
+          "magnitude": 210.643585
+        },
+        {
+          "x_offset": -89,
+          "y_offset": -54,
+          "magnitude": 209.623734
+        },
+        {
+          "x_offset": -88,
+          "y_offset": -54,
+          "magnitude": 215.022675
+        },
+        {
+          "x_offset": -87,
+          "y_offset": -54,
+          "magnitude": 217.300079
+        },
+        {
+          "x_offset": -86,
+          "y_offset": -54,
+          "magnitude": 213.439926
+        },
+        {
+          "x_offset": -84,
+          "y_offset": -54,
+          "magnitude": 210.468414
+        },
+        {
+          "x_offset": -83,
+          "y_offset": -54,
+          "magnitude": 213.375153
+        },
+        {
+          "x_offset": -82,
+          "y_offset": -54,
+          "magnitude": 211.672607
+        },
+        {
+          "x_offset": -66,
+          "y_offset": -54,
+          "magnitude": 208.873749
+        },
+        {
+          "x_offset": -105,
+          "y_offset": -53,
+          "magnitude": 209.504272
+        },
+        {
+          "x_offset": -104,
+          "y_offset": -53,
+          "magnitude": 213.717194
+        },
+        {
+          "x_offset": -103,
+          "y_offset": -53,
+          "magnitude": 216.517868
+        },
+        {
+          "x_offset": -102,
+          "y_offset": -53,
+          "magnitude": 217.194443
+        },
+        {
+          "x_offset": -101,
+          "y_offset": -53,
+          "magnitude": 216.483429
+        }
+      ]
+    },
+    "frequency_score_details": {
+      "high_frequency_component": 1.85,
+      "directional_component": 82.55,
+      "spectral_slope_component": 20.0,
+      "spectral_peak_component": 50.06,
+      "frequency_score": 36.92
+    },
+    "interpretation": {
+      "score": 36.92,
+      "status": "Lower Frequency-Domain Variation",
+      "observations": [
+        "High-frequency assessment: Lower High-Frequency Energy.",
+        "Directional assessment: Elevated Directional Concentration.",
+        "Spectral distribution: Concentrated Spectral Distribution.",
+        "Estimated spectral slope: -3.2960.",
+        "Frequency patterns may also be influenced by resizing, sharpening, compression, text, patterned clothing, architecture, or screen capture."
+      ],
+      "recommendation": "No strong frequency anomaly was identified by this prototype. This does not establish authenticity."
+    }
+  },
+  "primary_face_comparison": {
+    "comparison_available": true,
+    "full_image_high_frequency_percentage": 0.037097,
+    "primary_face_high_frequency_percentage": 0.064164,
+    "high_frequency_difference": 0.027067,
+    "medium_frequency_difference": 0.061098,
+    "low_frequency_difference": -0.088186,
+    "primary_face_spectral_slope": -3.022197,
+    "primary_face_spectral_entropy": 0.192104
+  },
+  "face_results": [
+    {
+      "image_name": "IMG_20260723_164713_5012_face_01.png",
+      "image_width": 465,
+      "image_height": 465,
+      "frequency_bands": {
+        "total_energy": 140962487599104.0,
+        "low_frequency_energy": 140411951644672.0,
+        "medium_frequency_energy": 460082511872.0,
+        "high_frequency_energy": 90447822848.0,
+        "low_frequency_percentage": 99.609445,
+        "medium_frequency_percentage": 0.326386,
+        "high_frequency_percentage": 0.064164,
+        "high_to_medium_ratio": 0.19659044,
+        "high_to_low_ratio": 0.00064416
+      },
+      "spectral_slope": {
+        "spectral_slope": -3.022197,
+        "spectral_intercept": 5.134084,
+        "spectral_fit_r_squared": 0.968247,
+        "fit_point_count": 279
+      },
+      "spectral_entropy": 0.192104,
+      "directional_summary": {
+        "maximum_direction_percentage": 13.068983,
+        "minimum_direction_percentage": 3.34332,
+        "directional_coefficient_of_variation": 0.5014,
+        "directional_peak_ratio": 2.356219
+      },
+      "spectral_peaks": {
+        "percentile_threshold": 99.9,
+        "peak_value_threshold": 193.210358,
+        "peak_count": 214,
+        "valid_spectrum_pixel_count": 212836,
+        "peak_density_percentage": 0.1005469,
+        "stored_peak_coordinates": [
+          {
+            "x_offset": -3,
+            "y_offset": -60,
+            "magnitude": 193.29776
+          },
+          {
+            "x_offset": -6,
+            "y_offset": -58,
+            "magnitude": 195.241974
+          },
+          {
+            "x_offset": -5,
+            "y_offset": -58,
+            "magnitude": 196.489883
+          },
+          {
+            "x_offset": -3,
+            "y_offset": -56,
+            "magnitude": 193.457886
+          },
+          {
+            "x_offset": -2,
+            "y_offset": -56,
+            "magnitude": 194.324188
+          },
+          {
+            "x_offset": -4,
+            "y_offset": -52,
+            "magnitude": 193.210358
+          },
+          {
+            "x_offset": -4,
+            "y_offset": -51,
+            "magnitude": 194.122833
+          },
+          {
+            "x_offset": 6,
+            "y_offset": -51,
+            "magnitude": 193.508667
+          },
+          {
+            "x_offset": -6,
+            "y_offset": -48,
+            "magnitude": 196.768738
+          },
+          {
+            "x_offset": -5,
+            "y_offset": -48,
+            "magnitude": 201.669296
+          },
+          {
+            "x_offset": -4,
+            "y_offset": -48,
+            "magnitude": 197.096725
+          },
+          {
+            "x_offset": 0,
+            "y_offset": -48,
+            "magnitude": 194.009018
+          },
+          {
+            "x_offset": 6,
+            "y_offset": -48,
+            "magnitude": 194.235367
+          },
+          {
+            "x_offset": -5,
+            "y_offset": -47,
+            "magnitude": 195.404266
+          },
+          {
+            "x_offset": -4,
+            "y_offset": -47,
+            "magnitude": 195.037872
+          },
+          {
+            "x_offset": 6,
+            "y_offset": -47,
+            "magnitude": 197.482697
+          },
+          {
+            "x_offset": 7,
+            "y_offset": -47,
+            "magnitude": 198.69693
+          },
+          {
+            "x_offset": -12,
+            "y_offset": -46,
+            "magnitude": 193.982178
+          },
+          {
+            "x_offset": -11,
+            "y_offset": -46,
+            "magnitude": 194.825516
+          },
+          {
+            "x_offset": -6,
+            "y_offset": -45,
+            "magnitude": 194.415039
+          },
+          {
+            "x_offset": -5,
+            "y_offset": -45,
+            "magnitude": 200.20491
+          },
+          {
+            "x_offset": -4,
+            "y_offset": -45,
+            "magnitude": 195.181305
+          },
+          {
+            "x_offset": 1,
+            "y_offset": -45,
+            "magnitude": 194.715744
+          },
+          {
+            "x_offset": 2,
+            "y_offset": -45,
+            "magnitude": 195.730927
+          },
+          {
+            "x_offset": -5,
+            "y_offset": -44,
+            "magnitude": 197.439514
+          },
+          {
+            "x_offset": -4,
+            "y_offset": -44,
+            "magnitude": 194.220352
+          },
+          {
+            "x_offset": -3,
+            "y_offset": -43,
+            "magnitude": 193.859161
+          },
+          {
+            "x_offset": 12,
+            "y_offset": -43,
+            "magnitude": 193.580948
+          },
+          {
+            "x_offset": 13,
+            "y_offset": -43,
+            "magnitude": 193.239532
+          },
+          {
+            "x_offset": -5,
+            "y_offset": -42,
+            "magnitude": 198.317734
+          },
+          {
+            "x_offset": -4,
+            "y_offset": -42,
+            "magnitude": 200.164948
+          },
+          {
+            "x_offset": -3,
+            "y_offset": -42,
+            "magnitude": 198.736725
+          },
+          {
+            "x_offset": -2,
+            "y_offset": -42,
+            "magnitude": 194.187103
+          },
+          {
+            "x_offset": 1,
+            "y_offset": -42,
+            "magnitude": 195.370804
+          },
+          {
+            "x_offset": 2,
+            "y_offset": -42,
+            "magnitude": 196.629425
+          },
+          {
+            "x_offset": 13,
+            "y_offset": -42,
+            "magnitude": 198.632385
+          },
+          {
+            "x_offset": 14,
+            "y_offset": -42,
+            "magnitude": 194.407379
+          },
+          {
+            "x_offset": -6,
+            "y_offset": -41,
+            "magnitude": 194.371826
+          },
+          {
+            "x_offset": -5,
+            "y_offset": -41,
+            "magnitude": 204.075867
+          },
+          {
+            "x_offset": -4,
+            "y_offset": -41,
+            "magnitude": 203.004791
+          },
+          {
+            "x_offset": -3,
+            "y_offset": -41,
+            "magnitude": 193.837906
+          },
+          {
+            "x_offset": -1,
+            "y_offset": -41,
+            "magnitude": 194.035812
+          },
+          {
+            "x_offset": 0,
+            "y_offset": -41,
+            "magnitude": 195.758453
+          },
+          {
+            "x_offset": 13,
+            "y_offset": -41,
+            "magnitude": 194.841888
+          },
+          {
+            "x_offset": 14,
+            "y_offset": -41,
+            "magnitude": 196.870407
+          },
+          {
+            "x_offset": -5,
+            "y_offset": -40,
+            "magnitude": 194.189636
+          },
+          {
+            "x_offset": 8,
+            "y_offset": -40,
+            "magnitude": 194.961777
+          },
+          {
+            "x_offset": -12,
+            "y_offset": -39,
+            "magnitude": 197.694519
+          },
+          {
+            "x_offset": -11,
+            "y_offset": -39,
+            "magnitude": 196.614853
+          },
+          {
+            "x_offset": -8,
+            "y_offset": -39,
+            "magnitude": 193.286987
+          },
+          {
+            "x_offset": -4,
+            "y_offset": -39,
+            "magnitude": 197.565002
+          },
+          {
+            "x_offset": -3,
+            "y_offset": -39,
+            "magnitude": 201.962921
+          },
+          {
+            "x_offset": -2,
+            "y_offset": -39,
+            "magnitude": 196.720795
+          },
+          {
+            "x_offset": 3,
+            "y_offset": -39,
+            "magnitude": 195.16568
+          },
+          {
+            "x_offset": 4,
+            "y_offset": -39,
+            "magnitude": 193.583801
+          },
+          {
+            "x_offset": -12,
+            "y_offset": -38,
+            "magnitude": 194.130005
+          },
+          {
+            "x_offset": -7,
+            "y_offset": -38,
+            "magnitude": 193.297699
+          },
+          {
+            "x_offset": -6,
+            "y_offset": -38,
+            "magnitude": 194.85257
+          },
+          {
+            "x_offset": -5,
+            "y_offset": -38,
+            "magnitude": 197.228577
+          },
+          {
+            "x_offset": -4,
+            "y_offset": -38,
+            "magnitude": 200.204483
+          },
+          {
+            "x_offset": -3,
+            "y_offset": -38,
+            "magnitude": 201.386047
+          },
+          {
+            "x_offset": -2,
+            "y_offset": -38,
+            "magnitude": 199.652008
+          },
+          {
+            "x_offset": -1,
+            "y_offset": -38,
+            "magnitude": 196.473083
+          },
+          {
+            "x_offset": 3,
+            "y_offset": -38,
+            "magnitude": 194.05304
+          },
+          {
+            "x_offset": 11,
+            "y_offset": -38,
+            "magnitude": 194.757462
+          },
+          {
+            "x_offset": -18,
+            "y_offset": -37,
+            "magnitude": 193.327774
+          },
+          {
+            "x_offset": -1,
+            "y_offset": -37,
+            "magnitude": 193.565765
+          },
+          {
+            "x_offset": 11,
+            "y_offset": -37,
+            "magnitude": 193.798203
+          },
+          {
+            "x_offset": -19,
+            "y_offset": -36,
+            "magnitude": 195.024429
+          },
+          {
+            "x_offset": -18,
+            "y_offset": -36,
+            "magnitude": 198.609863
+          },
+          {
+            "x_offset": 14,
+            "y_offset": -36,
+            "magnitude": 193.578888
+          },
+          {
+            "x_offset": -18,
+            "y_offset": -35,
+            "magnitude": 195.096222
+          },
+          {
+            "x_offset": -6,
+            "y_offset": -35,
+            "magnitude": 197.852036
+          },
+          {
+            "x_offset": -5,
+            "y_offset": -35,
+            "magnitude": 200.532715
+          },
+          {
+            "x_offset": 14,
+            "y_offset": -35,
+            "magnitude": 201.404663
+          },
+          {
+            "x_offset": -7,
+            "y_offset": -34,
+            "magnitude": 193.915787
+          },
+          {
+            "x_offset": -6,
+            "y_offset": -34,
+            "magnitude": 195.362396
+          },
+          {
+            "x_offset": -5,
+            "y_offset": -34,
+            "magnitude": 198.429581
+          },
+          {
+            "x_offset": 11,
+            "y_offset": -34,
+            "magnitude": 194.632477
+          },
+          {
+            "x_offset": 14,
+            "y_offset": -34,
+            "magnitude": 196.249969
+          },
+          {
+            "x_offset": 15,
+            "y_offset": -34,
+            "magnitude": 194.264587
+          },
+          {
+            "x_offset": -14,
+            "y_offset": -33,
+            "magnitude": 198.312744
+          },
+          {
+            "x_offset": -13,
+            "y_offset": -33,
+            "magnitude": 198.520386
+          },
+          {
+            "x_offset": -12,
+            "y_offset": -33,
+            "magnitude": 198.428574
+          },
+          {
+            "x_offset": -11,
+            "y_offset": -33,
+            "magnitude": 201.208893
+          },
+          {
+            "x_offset": -10,
+            "y_offset": -33,
+            "magnitude": 196.662811
+          },
+          {
+            "x_offset": -2,
+            "y_offset": -33,
+            "magnitude": 193.379532
+          },
+          {
+            "x_offset": 9,
+            "y_offset": -33,
+            "magnitude": 194.664825
+          },
+          {
+            "x_offset": 10,
+            "y_offset": -33,
+            "magnitude": 193.432983
+          },
+          {
+            "x_offset": 11,
+            "y_offset": -33,
+            "magnitude": 193.440109
+          },
+          {
+            "x_offset": -14,
+            "y_offset": -32,
+            "magnitude": 194.269653
+          },
+          {
+            "x_offset": -13,
+            "y_offset": -32,
+            "magnitude": 194.842255
+          },
+          {
+            "x_offset": -12,
+            "y_offset": -32,
+            "magnitude": 197.943542
+          },
+          {
+            "x_offset": -11,
+            "y_offset": -32,
+            "magnitude": 198.161102
+          },
+          {
+            "x_offset": 14,
+            "y_offset": -31,
+            "magnitude": 194.6418
+          },
+          {
+            "x_offset": -23,
+            "y_offset": -30,
+            "magnitude": 195.652222
+          },
+          {
+            "x_offset": 14,
+            "y_offset": -30,
+            "magnitude": 196.30835
+          },
+          {
+            "x_offset": 15,
+            "y_offset": -30,
+            "magnitude": 198.104004
+          },
+          {
+            "x_offset": -23,
+            "y_offset": -29,
+            "magnitude": 193.699661
+          },
+          {
+            "x_offset": -30,
+            "y_offset": -14,
+            "magnitude": 195.266724
+          }
+        ]
+      },
+      "face_id": 1,
+      "crop_path": "/content/drive/MyDrive/deepfake_banking_project/processed_images/IMG_20260723_164713_5012_face_01.png",
+      "suitability_rank": 1,
+      "spectrum_path": "/content/drive/MyDrive/deepfake_banking_project/forensic_outputs/IMG_20260723_164713_5012_face_01_fft_spectrum.png"
+    }
+  ],
+  "output_files": {
+    "fft_spectrum": "/content/drive/MyDrive/deepfake_banking_project/forensic_outputs/IMG_20260723_164713_5012_fft_magnitude_spectrum.png",
+    "radial_profile": "/content/drive/MyDrive/deepfake_banking_project/forensic_outputs/IMG_20260723_164713_5012_radial_frequency_profile.png",
+    "directional_frequency_plot": "/content/drive/MyDrive/deepfake_banking_project/forensic_outputs/IMG_20260723_164713_5012_directional_frequency_energy.png"
+  },
+  "limitations": [
+    "Frequency-domain signals are not proof of image manipulation.",
+    "Resizing, compression, screenshots, sharpening, and camera processing can change the spectrum.",
+    "Repeated patterns, text, clothing, architecture, and screen pixels can create directional peaks.",
+    "The prototype thresholds have not been calibrated on a representative banking dataset.",
+    "Modern generated images may have frequency spectra that resemble ordinary photographs."
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "analysis_id": "IMG_20260723_164713_5012",
+  "detector": "MediaPipe Face Detector",
+  "minimum_detection_confidence": 0.5,
+  "crop_padding_ratio": 0.25,
+  "number_of_faces": 1,
+  "banking_assessment": {
+    "status": "Single Face Detected",
+    "face_count": 1,
+    "observations": [
+      "One face was detected, which is consistent with a standard individual onboarding selfie."
+    ],
+    "recommended_actions": [
+      "Continue to face-level forensic analysis."
+    ]
+  },
+  "primary_face": {
+    "face_id": 1,
+    "detection_confidence": 0.950873,
+    "bounding_box": {
+      "x1": 284,
+      "y1": 251,
+      "x2": 595,
+      "y2": 562,
+      "width": 311,
+      "height": 311,
+      "area": 96721,
+      "area_percentage": 9.31
+    },
+    "keypoints": [
+      {
+        "keypoint_number": 1,
+        "x_normalized": 0.384306,
+        "y_normalized": 0.298215,
+        "x_pixel": 356,
+        "y_pixel": 334
+      },
+      {
+        "keypoint_number": 2,
+        "x_normalized": 0.531833,
+        "y_normalized": 0.289963,
+        "x_pixel": 493,
+        "y_pixel": 324
+      },
+      {
+        "keypoint_number": 3,
+        "x_normalized": 0.454085,
+        "y_normalized": 0.353874,
+        "x_pixel": 421,
+        "y_pixel": 396
+      },
+      {
+        "keypoint_number": 4,
+        "x_normalized": 0.46276,
+        "y_normalized": 0.41522,
+        "x_pixel": 429,
+        "y_pixel": 465
+      },
+      {
+        "keypoint_number": 5,
+        "x_normalized": 0.319784,
+        "y_normalized": 0.338798,
+        "x_pixel": 296,
+        "y_pixel": 379
+      },
+      {
+        "keypoint_number": 6,
+        "x_normalized": 0.63117,
+        "y_normalized": 0.324363,
+        "x_pixel": 585,
+        "y_pixel": 363
+      }
+    ],
+    "expanded_bounding_box": {
+      "x1": 207,
+      "y1": 174,
+      "x2": 672,
+      "y2": 639
+    },
+    "crop_path": "/content/drive/MyDrive/deepfake_banking_project/processed_images/IMG_20260723_164713_5012_face_01.png",
+    "crop_width": 465,
+    "crop_height": 465,
+    "face_quality": {
+      "face_blur_score": 353.7802,
+      "face_brightness_score": 111.7052,
+      "face_contrast_score": 49.1912,
+      "shortest_crop_side": 465,
+      "size_acceptable": true
+    },
+    "suitability_score": 80.34,
+    "suitability_rank": 1
+  },
+  "all_faces": [
+    {
+      "face_id": 1,
+      "detection_confidence": 0.950873,
+      "bounding_box": {
+        "x1": 284,
+        "y1": 251,
+        "x2": 595,
+        "y2": 562,
+        "width": 311,
+        "height": 311,
+        "area": 96721,
+        "area_percentage": 9.31
+      },
+      "keypoints": [
+        {
+          "keypoint_number": 1,
+          "x_normalized": 0.384306,
+          "y_normalized": 0.298215,
+          "x_pixel": 356,
+          "y_pixel": 334
+        },
+        {
+          "keypoint_number": 2,
+          "x_normalized": 0.531833,
+          "y_normalized": 0.289963,
+          "x_pixel": 493,
+          "y_pixel": 324
+        },
+        {
+          "keypoint_number": 3,
+          "x_normalized": 0.454085,
+          "y_normalized": 0.353874,
+          "x_pixel": 421,
+          "y_pixel": 396
+        },
+        {
+          "keypoint_number": 4,
+          "x_normalized": 0.46276,
+          "y_normalized": 0.41522,
+          "x_pixel": 429,
+          "y_pixel": 465
+        },
+        {
+          "keypoint_number": 5,
+          "x_normalized": 0.319784,
+          "y_normalized": 0.338798,
+          "x_pixel": 296,
+          "y_pixel": 379
+        },
+        {
+          "keypoint_number": 6,
+          "x_normalized": 0.63117,
+          "y_normalized": 0.324363,
+          "x_pixel": 585,
+          "y_pixel": 363
+        }
+      ],
+      "expanded_bounding_box": {
+        "x1": 207,
+        "y1": 174,
+        "x2": 672,
+        "y2": 639
+      },
+      "crop_path": "/content/drive/MyDrive/deepfake_banking_project/processed_images/IMG_20260723_164713_5012_face_01.png",
+      "crop_width": 465,
+      "crop_height": 465,
+      "face_quality": {
+        "face_blur_score": 353.7802,
+        "face_brightness_score": 111.7052,
+        "face_contrast_score": 49.1912,
+        "shortest_crop_side": 465,
+        "size_acceptable": true
+      },
+      "suitability_score": 80.34,
+      "suitability_rank": 1
+    }
+  ],
+  "annotated_image_path": "/content/drive/MyDrive/deepfake_banking_project/forensic_outputs/IMG_20260723_164713_5012_face_detection.png"
+}

@@ -1,0 +1,89 @@
+{
+  "analysis_id": "IMG_20260723_164713_5012",
+  "normalised_evidence": {
+    "classifier": 74.97,
+    "compression_noise": 46.62,
+    "frequency": 36.92,
+    "metadata": 0.0
+  },
+  "adaptive_weights": {
+    "classifier": 0.25,
+    "compression_noise": 0.25,
+    "frequency": 0.3,
+    "metadata": 0.2
+  },
+  "weighted_contributions": {
+    "classifier": 18.74,
+    "compression_noise": 11.65,
+    "frequency": 11.08,
+    "metadata": 0.0
+  },
+  "agreement": {
+    "standard_deviation": 26.81,
+    "agreement_score": 46.37,
+    "agreement_level": "Low",
+    "conflict_level": "High"
+  },
+  "risk_score": 41.47,
+  "confidence": 36.51,
+  "decision": {
+    "decision": "GENUINE - DIGITALLY ENHANCED",
+    "risk_score": 41.47,
+    "confidence": 36.51,
+    "agreement": "Low",
+    "conflict": "High",
+    "high_signal_count": 1,
+    "digitally_enhanced": true,
+    "reason": "Classifier indicates possible manipulation, but supporting forensic evidence is weak. Image likely contains professional editing."
+  },
+  "high_signal_count": 1,
+  "isolated_classifier": true,
+  "digitally_enhanced": true,
+  "evidence_summary": [
+    {
+      "Evidence Source": "classifier",
+      "Raw Score": 74.97,
+      "Weight": 0.25,
+      "Weighted Contribution": 18.74,
+      "Contribution Level": "High"
+    },
+    {
+      "Evidence Source": "compression_noise",
+      "Raw Score": 46.62,
+      "Weight": 0.25,
+      "Weighted Contribution": 11.65,
+      "Contribution Level": "High"
+    },
+    {
+      "Evidence Source": "frequency",
+      "Raw Score": 36.92,
+      "Weight": 0.3,
+      "Weighted Contribution": 11.08,
+      "Contribution Level": "High"
+    },
+    {
+      "Evidence Source": "metadata",
+      "Raw Score": 0.0,
+      "Weight": 0.2,
+      "Weighted Contribution": 0.0,
+      "Contribution Level": "Low"
+    }
+  ],
+  "decision_explanation": [
+    "Overall Risk Score: 41.47/100.",
+    "Confidence Score: 36.51/100.",
+    "Evidence Agreement: Low (46.37/100).",
+    "Evidence Conflict: High.",
+    "High Confidence Signals: 1.",
+    "Classifier is the only strong manipulation indicator. Confidence has been reduced because supporting forensic evidence is limited.",
+    "The image appears authentic but shows signs of normal digital enhancement such as professional retouching or compression.",
+    "Top contributing evidence sources:",
+    "- classifier: 18.74",
+    "- compression_noise: 11.65",
+    "- frequency: 11.08",
+    "- metadata: 0.00",
+    "Final Decision: GENUINE - DIGITALLY ENHANCED.",
+    "Decision Rationale: Classifier indicates possible manipulation, but supporting forensic evidence is weak. Image likely contains professional editing."
+  ],
+  "analyst_recommendation": "The image appears authentic but contains signs of normal digital enhancement (for example, studio retouching or compression). Continue with standard verification while recording the enhancement finding for audit purposes."
+}

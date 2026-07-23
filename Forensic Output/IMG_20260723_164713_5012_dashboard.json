@@ -1,0 +1,139 @@
+{
+  "analysis_id": "IMG_20260723_164713_5012",
+  "generated_timestamp": "2026-07-23T16:48:05.099811",
+  "decision": "GENUINE - DIGITALLY ENHANCED",
+  "risk_score": 41.47,
+  "confidence_score": 36.51,
+  "agreement": {
+    "standard_deviation": 26.81,
+    "agreement_score": 46.37,
+    "agreement_level": "Low",
+    "conflict_level": "High"
+  },
+  "high_signal_count": 1,
+  "evidence_diversity": {
+    "primary_risk_drivers": 1,
+    "supporting_evidence": 2,
+    "counter_evidence": 1,
+    "informational_evidence": 0,
+    "contributing_sources": 3,
+    "high_signal_count": 1,
+    "agreement_level": "Low",
+    "agreement_score": 46.37,
+    "conflict_level": "High",
+    "diversity": "Moderate"
+  },
+  "primary_risk_drivers": [
+    {
+      "Evidence Source": "classifier",
+      "Raw Score": 74.97,
+      "Weight": 0.25,
+      "Weighted Contribution": 18.74,
+      "Signal Strength": "Very Strong",
+      "Role": "Primary Risk Driver",
+      "Impact": "Strong supporting evidence"
+    }
+  ],
+  "supporting_evidence": [
+    {
+      "Evidence Source": "compression_noise",
+      "Raw Score": 46.62,
+      "Weight": 0.25,
+      "Weighted Contribution": 11.65,
+      "Signal Strength": "Moderate",
+      "Role": "Supporting Evidence",
+      "Impact": "Strong supporting evidence",
+      "Observation": "Compression analysis detected image processing characteristics that may result from resizing, export, social-media transmission or benign editing. These findings should be interpreted together with other forensic evidence."
+    },
+    {
+      "Evidence Source": "frequency",
+      "Raw Score": 36.92,
+      "Weight": 0.3,
+      "Weighted Contribution": 11.08,
+      "Signal Strength": "Weak",
+      "Role": "Supporting Evidence",
+      "Impact": "Strong supporting evidence",
+      "Observation": "Frequency-domain analysis detected minimal manipulation signals, supporting image authenticity."
+    }
+  ],
+  "counter_evidence": [
+    {
+      "Evidence Source": "metadata",
+      "Raw Score": 0.0,
+      "Weight": 0.2,
+      "Weighted Contribution": 0.0,
+      "Signal Strength": "Weak",
+      "Role": "Counter Evidence",
+      "Impact": "Minor supporting evidence",
+      "Observation": "Metadata is consistent with a typical camera-generated image.",
+      "Reason": "This forensic engine produced a low manipulation signal, supporting image authenticity and reducing the overall confidence in AI-generated manipulation."
+    }
+  ],
+  "evidence_fusion_summary": [
+    "Overall Risk Score: 41.47/100.",
+    "Confidence Score: 36.51/100.",
+    "Evidence Agreement: Low (46.37/100).",
+    "Evidence Conflict: High..",
+    "Contributing Forensic Engines: 4.",
+    "Primary Risk Drivers: 0.",
+    "Supporting Evidence Sources: 0.",
+    "Counter Evidence Sources: 0.",
+    "High Signal Count: 1.",
+    "Only one forensic engine produced a strong manipulation signal. Independent corroboration was limited.",
+    "The AI classifier was the only strong forensic indicator. Adaptive evidence weighting reduced its influence because other forensic engines did not provide sufficient corroboration.",
+    "The evidence is more consistent with normal digital enhancement such as professional retouching, export or image compression than malicious AI-generated manipulation.",
+    "Final Banking Decision: GENUINE - DIGITALLY ENHANCED.",
+    "Recommended Action: The image appears authentic but contains signs of normal digital enhancement (for example, studio retouching or compression). Continue with standard verification while recording the enhancement finding for audit purposes.."
+  ],
+  "confidence_explanation": [
+    "The overall confidence score is 36.51/100.",
+    "Forensic evidence agreement is Low (46.37/100).",
+    "Forensic evidence conflict is High.",
+    "1 forensic engine(s) reported strong manipulation signals.",
+    "1 evidence source(s) were classified as Primary Risk Drivers.",
+    "1 evidence source(s) provided Counter Evidence supporting image authenticity.",
+    "The AI classifier reported 74.97% prediction confidence.",
+    "Only one forensic engine produced a strong manipulation signal. Independent corroboration was limited.",
+    "The AI classifier was the only strong forensic indicator. Adaptive evidence weighting reduced its influence because other forensic engines did not provide sufficient corroboration.",
+    "Digital enhancement characteristics were detected. These are more consistent with normal image editing than malicious AI-generated manipulation.",
+    "Overall confidence in the forensic decision is Low because available forensic evidence is limited or conflicting."
+  ],
+  "diversity_explanation": [
+    "The assessment is supported by more than one forensic engine, but corroboration is limited. The final decision relies on a moderate level of independent evidence.",
+    "The assessment includes 1 Primary Risk Driver(s), 2 Supporting Evidence source(s), and 1 Counter Evidence source(s).",
+    "3 forensic engine(s) contributed positively to the final decision.",
+    "1 forensic engine(s) produced high-confidence manipulation signals.",
+    "Evidence agreement is Low (46.37/100) while evidence conflict is High.",
+    "Limited forensic diversity reduces the overall confidence and increases the importance of human review."
+  ],
+  "attribution_table": [
+    {
+      "Evidence Source": "classifier",
+      "Raw Score": 74.97,
+      "Weight": 0.25,
+      "Weighted Contribution": 18.74,
+      "Contribution Level": "High"
+    },
+    {
+      "Evidence Source": "compression_noise",
+      "Raw Score": 46.62,
+      "Weight": 0.25,
+      "Weighted Contribution": 11.65,
+      "Contribution Level": "High"
+    },
+    {
+      "Evidence Source": "frequency",
+      "Raw Score": 36.92,
+      "Weight": 0.3,
+      "Weighted Contribution": 11.08,
+      "Contribution Level": "High"
+    },
+    {
+      "Evidence Source": "metadata",
+      "Raw Score": 0.0,
+      "Weight": 0.2,
+      "Weighted Contribution": 0.0,
+      "Contribution Level": "Low"
+    }
+  ]
+}

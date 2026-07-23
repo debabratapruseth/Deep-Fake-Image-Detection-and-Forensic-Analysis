@@ -1,0 +1,107 @@
+{
+  "analysis_id": "IMG_20260723_164713_5012",
+  "model_name": "prithivMLmods/Deep-Fake-Detector-v2-Model",
+  "model_labels": {
+    "0": "Realism",
+    "1": "Deepfake"
+  },
+  "label_meaning_map": {
+    "0": "real",
+    "1": "fake"
+  },
+  "prototype_thresholds": {
+    "lower_fake_signal_below": 0.3,
+    "elevated_fake_signal_at_or_above": 0.7
+  },
+  "primary_face_prediction": {
+    "image_name": "IMG_20260723_164713_5012_face_01.png",
+    "image_width": 465,
+    "image_height": 465,
+    "predicted_class_id": 1,
+    "predicted_raw_label": "Deepfake",
+    "predicted_meaning": "fake",
+    "predicted_confidence": 0.749688,
+    "real_probability": 0.250312,
+    "fake_probability": 0.749688,
+    "class_results": [
+      {
+        "class_id": 0,
+        "raw_label": "Realism",
+        "interpreted_meaning": "real",
+        "probability": 0.250312
+      },
+      {
+        "class_id": 1,
+        "raw_label": "Deepfake",
+        "interpreted_meaning": "fake",
+        "probability": 0.749688
+      }
+    ],
+    "classifier_signal": "Elevated Fake Signal"
+  },
+  "all_face_predictions": [
+    {
+      "image_name": "IMG_20260723_164713_5012_face_01.png",
+      "image_width": 465,
+      "image_height": 465,
+      "predicted_class_id": 1,
+      "predicted_raw_label": "Deepfake",
+      "predicted_meaning": "fake",
+      "predicted_confidence": 0.749688,
+      "real_probability": 0.250312,
+      "fake_probability": 0.749688,
+      "class_results": [
+        {
+          "class_id": 0,
+          "raw_label": "Realism",
+          "interpreted_meaning": "real",
+          "probability": 0.250312
+        },
+        {
+          "class_id": 1,
+          "raw_label": "Deepfake",
+          "interpreted_meaning": "fake",
+          "probability": 0.749688
+        }
+      ],
+      "face_id": 1,
+      "suitability_rank": 1,
+      "suitability_score": 80.34,
+      "crop_path": "/content/drive/MyDrive/deepfake_banking_project/processed_images/IMG_20260723_164713_5012_face_01.png",
+      "classifier_signal": "Elevated Fake Signal"
+    }
+  ],
+  "full_image_prediction": {
+    "image_name": "IMG_20260723_164713_5012_Debabrata Pruseth.png",
+    "image_width": 928,
+    "image_height": 1120,
+    "predicted_class_id": 1,
+    "predicted_raw_label": "Deepfake",
+    "predicted_meaning": "fake",
+    "predicted_confidence": 0.776741,
+    "real_probability": 0.223259,
+    "fake_probability": 0.776741,
+    "class_results": [
+      {
+        "class_id": 0,
+        "raw_label": "Realism",
+        "interpreted_meaning": "real",
+        "probability": 0.223259
+      },
+      {
+        "class_id": 1,
+        "raw_label": "Deepfake",
+        "interpreted_meaning": "fake",
+        "probability": 0.776741
+      }
+    ],
+    "classifier_signal": "Elevated Fake Signal"
+  },
+  "limitations": [
+    "This model is a research prototype and has not been calibrated for banking decisions.",
+    "A high fake probability is not proof that an image is manipulated.",
+    "A low fake probability does not prove that an image is authentic.",
+    "Performance can change with compression, image quality, demographics, manipulation method, and capture device.",
+    "Face-level and full-image outputs must remain separate because background content can influence the full-image result."
+  ]
+}

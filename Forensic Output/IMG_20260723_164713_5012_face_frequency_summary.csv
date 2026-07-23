@@ -1,0 +1,2 @@
+Face ID,Suitability Rank,Low Frequency %,Medium Frequency %,High Frequency %,High-to-Medium Ratio,Spectral Slope,Slope R-Squared,Spectral Entropy,Directional CV,Directional Peak Ratio,Spectral Peak Density %,Spectrum Path
+1,1,99.609445,0.326386,0.064164,0.19659044,-3.022197,0.968247,0.192104,0.5014,2.356219,0.1005469,/content/drive/MyDrive/deepfake_banking_project/forensic_outputs/IMG_20260723_164713_5012_face_01_fft_spectrum.png
